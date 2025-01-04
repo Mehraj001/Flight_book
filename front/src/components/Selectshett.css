@@ -1,0 +1,44 @@
+.seat-map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 631px;
+        background-color: #f0f0f0;
+        background-image: url("https://cdn.vectorstock.com/i/500p/60/23/flat-design-airplane-top-view-vector-8536023.jpg"); /* Optional background */
+        background-size: cover;
+        background-position: center;
+        width: 39%;
+        margin-top: 0px;
+       height: 146Vh;
+         margin-bottom: -23px;
+        
+      }
+      .link button{
+        gap: 0px;
+      }
+      
+      .seat-row {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+      }
+      
+      .seat {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        background-color: lightgray;
+        border: 1px solid gray;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+      
+      .seat.selected {
+        background-color: pink;
+        border-color: red;
+        font-weight: bold;
+      }
+      

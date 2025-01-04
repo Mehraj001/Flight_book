@@ -1,0 +1,30 @@
+.baccccc{
+  background-image: url('https://www.polytec.com.au/img/products/960-960/bone-white.jpg');
+}
+.containor{
+       width: 80%;
+       margin-left: 175px;
+       font-size: 25px;
+       
+}
+.heading h1{
+        color: black;
+}
+
+.conclusion{
+        line-height: normal;
+}
+.btn{
+        width: 12%;
+        margin-left: 558px;
+        margin-top: 50px;
+        background: linear-gradient(to right bottom, rgb(139, 92, 246), rgb(255, 77, 148));
+        padding: 8px;
+        border-radius: 5px solid red;
+        border: 0;
+        color:white ;
+}
+.btn a{
+        text-decoration: none;
+        color: white;
+}
